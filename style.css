@@ -1,0 +1,189 @@
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background: url(./images/colors.webp);
+    margin: 0;
+    user-select: none;
+    font-style: italic;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.navbar {
+    background: transparent;
+    background-color: #efeaea;
+}
+
+.navbar-brand {
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+#id-1{
+    margin: auto;
+    width: 40%;
+    margin-top: 4rem;
+    color: #584214;
+}
+
+#btn-1 {
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #47340b;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#btn-1:hover {
+    background-color: #766e6e;
+    border: 2px solid #47340b;
+}
+
+.p-1 {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    width: 50%;
+    user-select: none;
+    color: #715312;
+}
+
+#header-1 {
+    color: #e67b39;
+    user-select: none;
+    margin-top: 3rem;
+}
+
+#btn-2 {
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #e67b39;
+    font-weight: bold;
+    border: 1px solid #f2a26f;
+    margin-bottom: 2rem;
+}
+
+#btn-2:hover {
+    background-color: #f8cfb6;
+}
+
+
+#header-2 {
+    color: #ed9bad;
+    user-select: none;
+    margin-top: 3rem;
+}
+
+#btn-3 {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #e692a5;
+    font-weight: bold;
+    border: 1px solid #ed9bad;
+    margin-bottom: 2rem;
+}
+
+#btn-3:hover {
+    background-color:#ffdee6 ;
+}
+
+.image-wrapper{
+    height: 40rem;
+    overflow: hidden;
+}
+
+#header-3{
+    color:#cda60a;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 12rem;
+}
+#header-4{
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+}
+
+.survey-form {
+    width: 100%;
+   min-height: 30rem;
+   background: url(./images/pink\ headphone.jfif);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   height: 50rem;
+}
+
+.form-group {
+    padding: 0.5rem 0.8rem;
+    border:1px solid #e3986a;
+    background-color: transparent;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.form-group:focus{
+    border:1px solid #e3986a;
+    outline: none;
+}
+
+::placeholder{
+    color:#ad4d11;
+    user-select: none;
+}
+
+
+.textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border:1px solid #e3986a;
+    background-color: transparent;
+    margin-top: 1rem;
+    cursor: pointer;
+    resize: none;
+}
+.textarea:focus{
+    border:1px solid #e3986a;
+    outline: none;
+}
+
+.btn-4 {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    background-color: #f9e2d4;
+    color: #ad4d11;
+    font-weight: bold;
+    border: 1px solid #e3986a;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.btn-4:hover{
+    background-color: #f8cfb6;
+}
+
+#header-5{
+    color:#ad4d11;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    user-select: none;
+}

@@ -139,7 +139,6 @@ header {
     margin-top: 1rem;
     border-radius: 5px;
     cursor: pointer;
-   
 }
 .form-group:focus{
     border:1px solid #e3986a;
